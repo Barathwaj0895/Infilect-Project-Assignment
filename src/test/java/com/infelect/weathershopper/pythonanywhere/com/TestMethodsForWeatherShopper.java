@@ -158,6 +158,7 @@ public class TestMethodsForWeatherShopper {
 				System.out.println("Payment is successfull and order has been placed");
 			} else if (b == false){
 				success.equalsIgnoreCase("PAYMENT FAILED");
+				System.out.println("Payment failed Hence retrying payment");
 				driver.navigate().back();
 				verifyCartProducts();
 				makePaymentForProductInCart();	
