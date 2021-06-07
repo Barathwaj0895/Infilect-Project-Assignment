@@ -25,8 +25,7 @@ public class WeathershopperRunner extends TestMethodsForWeatherShopper {
 		Assert.assertTrue(shopForMoisturizerOrSunscreen(), "Shopping products is successful");
 		Assert.assertTrue(addToCart(), "Adding the products to cart is Successful");
 		Assert.assertTrue(verifyCartProducts(), "Products verification from cart is Successful");
-		Assert.assertTrue(makePaymentForProductInCart(), "Payment Completed");
-		Assert.assertTrue(verifyPaymentStatus(), "Payment successful");
+		Assert.assertTrue(makePaymentForProductInCart() && verifyPaymentStatus(), "Payment Completed and Sucessfull");
 	}
 	
 	@AfterMethod(alwaysRun = true)
