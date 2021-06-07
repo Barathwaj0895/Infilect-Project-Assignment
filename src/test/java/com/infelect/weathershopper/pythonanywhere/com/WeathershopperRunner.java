@@ -18,7 +18,7 @@ public class WeathershopperRunner extends TestMethodsForWeatherShopper {
 		driver.getTitle();
 	}
 	
-	@Test
+	@Test(priority = 1)
 	public void testWeathershopper() throws InterruptedException {
 		Assert.assertTrue(openChromeAndlaunchWebsite(), "Login Successful");
 		Assert.assertTrue(selectMoisturizerOrSunscreenBasedOnTemperature(), "Selecting products based on condition is successful");
