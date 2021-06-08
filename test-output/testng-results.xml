@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-07T00:55:04 IST" name="Suite" finished-at="2021-06-07T00:55:31 IST" duration-ms="26857">
+  <suite started-at="2021-06-07T15:52:36 IST" name="Default suite" finished-at="2021-06-07T15:53:04 IST" duration-ms="27800">
     <groups>
     </groups>
-    <test started-at="2021-06-07T00:55:04 IST" name="Test" finished-at="2021-06-07T00:55:31 IST" duration-ms="26857">
+    <test started-at="2021-06-07T15:52:36 IST" name="Default test" finished-at="2021-06-07T15:53:04 IST" duration-ms="27800">
       <class name="com.infelect.weathershopper.pythonanywhere.com.WeathershopperRunner">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.infelect.weathershopper.pythonanywhere.com.WeathershopperRunner@2dde1bff]" started-at="2021-06-07T00:55:04 IST" name="setup" finished-at="2021-06-07T00:55:06 IST" duration-ms="2156" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.infelect.weathershopper.pythonanywhere.com.WeathershopperRunner@2dde1bff]" started-at="2021-06-07T15:52:36 IST" name="setup" finished-at="2021-06-07T15:52:38 IST" duration-ms="2513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testWeathershopper()[pri:0, instance:com.infelect.weathershopper.pythonanywhere.com.WeathershopperRunner@2dde1bff]" started-at="2021-06-07T00:55:06 IST" name="testWeathershopper" finished-at="2021-06-07T00:55:30 IST" duration-ms="24011" status="PASS">
+        <test-method signature="testWeathershopper()[pri:0, instance:com.infelect.weathershopper.pythonanywhere.com.WeathershopperRunner@2dde1bff]" started-at="2021-06-07T15:52:38 IST" name="testWeathershopper" finished-at="2021-06-07T15:53:03 IST" duration-ms="24527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWeathershopper -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infelect.weathershopper.pythonanywhere.com.WeathershopperRunner@2dde1bff]" started-at="2021-06-07T00:55:30 IST" name="tearDown" finished-at="2021-06-07T00:55:31 IST" duration-ms="660" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infelect.weathershopper.pythonanywhere.com.WeathershopperRunner@2dde1bff]" started-at="2021-06-07T15:53:03 IST" name="tearDown" finished-at="2021-06-07T15:53:04 IST" duration-ms="698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.infelect.weathershopper.pythonanywhere.com.WeathershopperRunner -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
